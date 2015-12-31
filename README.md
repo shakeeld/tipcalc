@@ -1,10 +1,10 @@
-# Pre-work - tips
+# Pre-work - *tips*
 
-tips is a tip calculator application for iOS.
+**tips** is a tip calculator application for iOS.
 
-Submitted by: Shakeel Daswani
+Submitted by: **Shakeel Daswani**
 
-Time spent: 5-6 hours spent in total
+Time spent: **5-6** hours spent in total
 
 ## User Stories
 
@@ -29,6 +29,8 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 # below is the link to my app walkthrough
+
+<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 http://imgur.com/4PoSNRk
 
