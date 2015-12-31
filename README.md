@@ -12,7 +12,7 @@ The following **required** functionality is complete:
 * [x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 
 The following **optional** features are implemented:
-* [x but not functional] Settings page to change the default tip percentage.
+* [ ] Settings page to change the default tip percentage.
 * [ ] UI animations
 * [ ] Remembering the bill amount across app restarts (if <10mins)
 * [ ] Using locale-specific currency and currency thousands separators.
@@ -23,6 +23,7 @@ The following **additional** features are implemented:
 - [x] App has an icon. 
 - [x] App has a launch screen.
 - [x] App screen backgrounds have color. 
+- [x] App has a non-functional settings screen that is linked to the main view controller.
 
 ## Video Walkthrough 
 
