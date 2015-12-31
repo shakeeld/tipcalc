@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF0AB0C31C343D77006C1365 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0AB0C21C343D77006C1365 /* SettingsViewController.swift */; };
+		BF0AB0C51C35A41F006C1365 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0AB0C41C35A41F006C1365 /* Launch Screen.storyboard */; };
+		BF0AB0C91C35A601006C1365 /* Calculator Icon-1.gif in Resources */ = {isa = PBXBuildFile; fileRef = BF0AB0C81C35A601006C1365 /* Calculator Icon-1.gif */; };
 		BF6AFBF91C31240300350619 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6AFBF81C31240300350619 /* AppDelegate.swift */; };
 		BF6AFBFB1C31240300350619 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6AFBFA1C31240300350619 /* ViewController.swift */; };
 		BF6AFBFE1C31240300350619 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF6AFBFC1C31240300350619 /* Main.storyboard */; };
 		BF6AFC001C31240300350619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF6AFBFF1C31240300350619 /* Assets.xcassets */; };
-		BF6AFC031C31240300350619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF6AFC011C31240300350619 /* LaunchScreen.storyboard */; };
 		BF6AFC0E1C31240300350619 /* tipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6AFC0D1C31240300350619 /* tipsTests.swift */; };
 		BF6AFC191C31240300350619 /* tipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6AFC181C31240300350619 /* tipsUITests.swift */; };
 /* End PBXBuildFile section */
@@ -34,12 +36,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF0AB0C21C343D77006C1365 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		BF0AB0C41C35A41F006C1365 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		BF0AB0C81C35A601006C1365 /* Calculator Icon-1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Calculator Icon-1.gif"; sourceTree = "<group>"; };
 		BF6AFBF51C31240300350619 /* tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF6AFBF81C31240300350619 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF6AFBFA1C31240300350619 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BF6AFBFD1C31240300350619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF6AFBFF1C31240300350619 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BF6AFC021C31240300350619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF6AFC041C31240300350619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF6AFC091C31240300350619 /* tipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF6AFC0D1C31240300350619 /* tipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsTests.swift; sourceTree = "<group>"; };
@@ -99,9 +103,11 @@
 			children = (
 				BF6AFBF81C31240300350619 /* AppDelegate.swift */,
 				BF6AFBFA1C31240300350619 /* ViewController.swift */,
+				BF0AB0C41C35A41F006C1365 /* Launch Screen.storyboard */,
+				BF0AB0C21C343D77006C1365 /* SettingsViewController.swift */,
 				BF6AFBFC1C31240300350619 /* Main.storyboard */,
+				BF0AB0C81C35A601006C1365 /* Calculator Icon-1.gif */,
 				BF6AFBFF1C31240300350619 /* Assets.xcassets */,
-				BF6AFC011C31240300350619 /* LaunchScreen.storyboard */,
 				BF6AFC041C31240300350619 /* Info.plist */,
 			);
 			path = tips;
@@ -189,10 +195,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = codepath;
+				ORGANIZATIONNAME = shakeeldaswani;
 				TargetAttributes = {
 					BF6AFBF41C31240200350619 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = TVMD7XVDMN;
 					};
 					BF6AFC081C31240300350619 = {
 						CreatedOnToolsVersion = 7.2;
@@ -229,8 +236,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF6AFC031C31240300350619 /* LaunchScreen.storyboard in Resources */,
 				BF6AFC001C31240300350619 /* Assets.xcassets in Resources */,
+				BF0AB0C51C35A41F006C1365 /* Launch Screen.storyboard in Resources */,
+				BF0AB0C91C35A601006C1365 /* Calculator Icon-1.gif in Resources */,
 				BF6AFBFE1C31240300350619 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +266,7 @@
 			files = (
 				BF6AFBFB1C31240300350619 /* ViewController.swift in Sources */,
 				BF6AFBF91C31240300350619 /* AppDelegate.swift in Sources */,
+				BF0AB0C31C343D77006C1365 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +308,6 @@
 				BF6AFBFD1C31240300350619 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BF6AFC011C31240300350619 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BF6AFC021C31240300350619 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -397,10 +398,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = tips/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.tips;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shakeeld.tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -408,10 +412,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = tips/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.tips;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shakeeld.tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -482,6 +489,7 @@
 				BF6AFC1F1C31240300350619 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF6AFC201C31240300350619 /* Build configuration list for PBXNativeTarget "tipsTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +498,7 @@
 				BF6AFC221C31240300350619 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF6AFC231C31240300350619 /* Build configuration list for PBXNativeTarget "tipsUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +507,7 @@
 				BF6AFC251C31240300350619 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
